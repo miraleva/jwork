@@ -1,3 +1,2 @@
-# jwork
-\\ bütün başlangıç java çalışmalarım
-\\ KAFAYI YİYECEĞİM AZ KALDI 
+bütün başlangıç java çalışmalarım
+
