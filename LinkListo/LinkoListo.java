@@ -22,7 +22,7 @@ public class LinkoListo {
     public void printList() {
         Node currentNode = this.startNode;
         while (currentNode != null) {
-            System.out.print(currentNode.data + " ");
+            System.out.println(currentNode.data + " ");
             currentNode = currentNode.next;
         }
         System.out.println();
