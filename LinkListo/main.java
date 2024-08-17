@@ -4,7 +4,7 @@ public class main {
         myList.append(1);
         myList.append(2);
         myList.append(3);
-        myList.append(4);
+        myList.append(8);
 
         myList.printList(); 
         
