@@ -1,3 +1,5 @@
+package que;
+
 public class QueueList {
 
     public static void main(String[] args) {
