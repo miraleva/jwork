@@ -4,8 +4,8 @@ public class QueueList {
         Queue queue = new Queue();
         queue.enqueue(1);
         queue.enqueue(2);
-        queue.enqueue(3);
-        queue.enqueue(4);
+        queue.enqueue(8);
+        queue.enqueue(9);
 
         QueueNode result = queue.dequeue(); 
         System.out.println(result.val);
