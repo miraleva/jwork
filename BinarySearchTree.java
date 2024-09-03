@@ -18,7 +18,7 @@ public class BinarySearchTree{
     Node root =null;
     
     public void addValue(int value){
-        if (root=null;)
+        
     }
 
 }
