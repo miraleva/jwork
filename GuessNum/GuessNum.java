@@ -46,3 +46,5 @@ class GuessNum {
         }
     }
 }
+
+//Hocam java konusunda deneyimim var ondan dolayı öğrendiklerimizden biraz ileri şeyler kullandım. Umarım sorun olmaz.
