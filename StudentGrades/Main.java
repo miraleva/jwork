@@ -14,9 +14,7 @@ public class Main {
         student4.studentInfo();
         student5.studentInfo();
 
-        Lessons math = new Lessons("Math", 50);
-        Lessons history = new Lessons("History", 60);
-        Lessons death = new Lessons("Death", 40);
+      
 
     }
     

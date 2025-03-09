@@ -22,6 +22,10 @@ public class Student{
 
     }
 
+    public int averajStudent(){
+        return (mathNote + historyNote + deathNote)/ 3;
+    }
+
     
 
 }
