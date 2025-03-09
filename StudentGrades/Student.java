@@ -1,4 +1,5 @@
 package StudentGrades;
+//burası tm gibi sadece constructorda notlar derslere özgü onu tekleştirsem mi bilemedim 
 
 public class Student{
     String name;
@@ -18,7 +19,7 @@ public class Student{
     }
 
     public void student_info(){
-        System.out.println("Student:"+ this.name + "Age:"+ this.age + "Math:"+ this.mathNote +"History:"+ this.historyNote +"Death"+ this.deathNote);
+        System.out.println("Student: "+ this.name + " Age: "+ this.age + " Math: "+ this.mathNote +" History: "+ this.historyNote +" Death: "+ this.deathNote);
 
     }
 

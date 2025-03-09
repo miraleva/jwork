@@ -1,22 +1,16 @@
 package StudentGrades;
-
+//lesson averaj alınma eklenecek + geçilemeyen dersten "öğrenci kaldı" eklenebilir.
 public class Lessons{
-    String lessonName;
-    int passingGrade;
+    String lessonName;  
+    int passingGrade;   
 
 
-    public Lessons(String lessonName, int passingGrade){
+    public Lessons(String lessonName,int passingGrade){
         this.lessonName=lessonName;
-        this.passingGrade= passingGrade;
-
+        this.passingGrade=passingGrade;
     }
 
-    public int averajGrade(){
-
-
-    }
-    
     public void lesson_info(){
-        System.out.println("lesson:" + lessonName + "Passing grade:" + passingGrade);
+        System.out.println("Lesson: " + lessonName + " & Passing grade: " + passingGrade);
     }
 }
