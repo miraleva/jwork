@@ -8,11 +8,11 @@ public class Main {
         Student student4 = new Student("Mohammed",17,14,100,0);
         Student student5 = new Student("Ayşe",15,91,84,38);
 
-        student1.studentInfo();
-        student2.studentInfo();
-        student3.studentInfo();
-        student4.studentInfo();
-        student5.studentInfo();
+        student1.student_info();
+        student2.student_info();
+        student3.student_info();
+        student4.student_info();
+        student5.student_info();
 
       
 
