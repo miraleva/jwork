@@ -13,13 +13,11 @@ public class Student {
     }
 
     public void student_info() {
-        System.out.println("Student: " + this.name + " Age: " + this.age + " Math: " + this.mathNote + " History: "
-                + this.historyNote + " Death: " + this.deathNote);
-
+        System.out.println("Student: " + this.name + " Age: " + this.age + " ID: " + this.ID);
     }
 
-    public int averajStudent() {
-        return (mathNote + historyNote + deathNote) / 3;
-    }
+    //public int averajStudent() {
+        //return (mathNote + historyNote + deathNote) / 3;
+
 
 }
