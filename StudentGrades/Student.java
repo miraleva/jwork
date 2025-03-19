@@ -16,8 +16,5 @@ public class Student {
         System.out.println("Student: " + this.name + " Age: " + this.age + " ID: " + this.ID);
     }
 
-    //public int averajStudent() {
-        //return (mathNote + historyNote + deathNote) / 3;
-
-
+    
 }

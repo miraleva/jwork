@@ -13,4 +13,10 @@ public class Lessons{
     public void lesson_info(){
         System.out.println("Lesson: " + lessonName + " & Passing grade: " + passingGrade);
     }
+
+    public int averajStudent() {
+        return (mathNote + historyNote + deathNote) / 3;
+    }
+
+
 }
