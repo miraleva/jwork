@@ -2,9 +2,9 @@ package StudentGrades;
 
 public class Main {
     public static void main(String[] args){
-        Lessons lessons1 = new Lessons("Math",50);
-        Lessons lessons2 = new Lessons("History",60);
-        Lessons lessons3 = new Lessons("Death",30);
+        Lessons math = new Lessons("Math",);
+        Lessons history = new Lessons("History",);
+        Lessons death = new Lessons("Death",);
         
 
         Student student1 = new Student("Murat",16,1);

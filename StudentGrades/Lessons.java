@@ -2,26 +2,34 @@ package StudentGrades;
 //lesson averaj alınma eklenecek + geçilemeyen dersten "öğrenci kaldı" eklenebilir.
 public class Lessons{
     String lessonName;  
-    int passingGrade;   
-    int mathNote;
-    int historyNote;
-    int deathNote;
+    int[] studentIDs; 
+    int[] studentNotes; 
 
 
 
-    public Lessons(String lessonName,int passingGrade,int mathNote,int historyNote, int deathNote){
+    public Lessons(String lessonName,int[] studentIDs, int[] studentNotes){
         this.lessonName=lessonName;
-        this.passingGrade=passingGrade;
-        this.mathNote=mathNote;
-        this.historyNote=historyNote;
-        this.deathNote=deathNote;
+        this.studentIDs=studentIDs;
+        this.studentNotes=studentNotes;
     }
 
-    public void lesson_info(){
-        System.out.println("Lesson: " + lessonName + " & Passing grade: " + passingGrade);
-    }
+    public String getStudentNotes(int ID){
+        for( int i=0; i<studentIDs.length; i++ ){ //length
+            if(studentIDs[i] == ID){
+                return "Student Note:" + studentNotes[i];
+            } 
+        }
+           return "Student yok";
+        }
+            
+        
 
-    public void averajLesson(){
+    public int averajLesson(){
+        int total = 0;
+        for (int note : studentNotes) {
+            total += note;
+        }
+        return (int) total / studentNotes.length;
         
     }
 
@@ -32,10 +40,5 @@ public class Lessons{
 
         }
     }
-
-    public int averajStudent() {
-        return (mathNote + historyNote + deathNote) / 3;
-    }
-
 
 }
