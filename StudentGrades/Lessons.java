@@ -21,6 +21,18 @@ public class Lessons{
         System.out.println("Lesson: " + lessonName + " & Passing grade: " + passingGrade);
     }
 
+    public void averajLesson(){
+        
+    }
+
+
+    public void averajComp(){
+        if(){ //eğer student note<ders ortalaması öprenci kaldı else ıdk 
+        
+
+        }
+    }
+
     public int averajStudent() {
         return (mathNote + historyNote + deathNote) / 3;
     }
