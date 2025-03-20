@@ -7,11 +7,11 @@ public class Main {
         Lessons lessons3 = new Lessons("Death",30);
         
 
-        Student student1 = new Student("Murat",16,49,84,7);
-        Student student2 = new Student("Fadime",16,72,65,21);
-        Student student3 = new Student("Muratcan",16,63,38,3);
-        Student student4 = new Student("Mohammed",17,14,100,0);
-        Student student5 = new Student("Ayşe",15,91,84,38);
+        Student student1 = new Student("Murat",16,1);
+        Student student2 = new Student("Fadime",16,2);
+        Student student3 = new Student("Muratcan",16,3);
+        Student student4 = new Student("Mohammed",17,4);
+        Student student5 = new Student("Ayşe",15,5);
 
         student1.student_info();
         student2.student_info();
