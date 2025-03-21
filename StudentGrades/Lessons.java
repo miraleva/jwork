@@ -1,5 +1,4 @@
 package StudentGrades;
-//lesson averaj alınma eklenecek + geçilemeyen dersten "öğrenci kaldı" eklenebilir.
 public class Lessons{
     String lessonName;  
     int[] studentIDs; 
@@ -7,16 +6,16 @@ public class Lessons{
 
 
 
-    public Lessons(String lessonName,int[] studentIDs, int[] studentNotes){
-        this.lessonName=lessonName;
-        this.studentIDs=studentIDs;
-        this.studentNotes=studentNotes;
+    public Lessons(String lessonName, int[] studentIDs, int[] studentNotes){
+        this.lessonName= lessonName;
+        this.studentIDs= studentIDs;
+        this.studentNotes= studentNotes;
     }
 
     public String getStudentNotes(int ID){
         for( int i=0; i<studentIDs.length; i++ ){ //length
             if(studentIDs[i] == ID){
-                return "Student Note:" + studentNotes[i];
+                return " notu:" + studentNotes[i];
             } 
         }
            return "Student yok";
@@ -33,12 +32,5 @@ public class Lessons{
         
     }
 
-
-    public void averajComp(){
-        if(){ //eğer student note<ders ortalaması öprenci kaldı else ıdk 
-        
-
-        }
-    }
 
 }
