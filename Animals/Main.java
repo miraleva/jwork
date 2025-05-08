@@ -1,6 +1,6 @@
 package Animals;
 
-public class ZooTest {
+public class Main {
     public static void main(String args[]){
         Animal animal = new Animal("penguen");
         Dog animal1 = new Dog("kangal");
