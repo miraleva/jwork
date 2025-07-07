@@ -31,7 +31,7 @@ public class Animal{
         }
         @Override
         public void makeSound(){
-            System.out.println(name + "meows");
+            System.out.println(name + "meoww");
         }
 
 
